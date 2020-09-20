@@ -1,27 +1,27 @@
 # IDCD_equipo2_normas
 ## Division de investigacion
 
-### Oscar
-## Estándar ANSI/BICSI 002-2014
-## ANSI/TIA 942-A 2014
-
-###Francisco
-## El Uptime Institute y su estándar Tier
-## ICREA ( ICREA-Std-131-2017)
-## UL (Underwriter Laboratories)
+### Armando
+## Estándar IEEE 802.4 (Token Bus)
+## Estándar IEEE 802.5 (Token Ring)
+## Estándar FDDI
 
 ### Angel
 ## Certificaciones TSI/EN 50600 (Trusted Site Infrastructure)
 ## The Open Standard for Data Center Availability (OSDA) 
 
+### Francisco
+## ICREA ( ICREA-Std-131-2017)
+## UL (Underwriter Laboratories)
+
 ### Juan Poot
 ## Open-IX Association (OIX) 
 ## NORMA IEEE (Institute of Electrical and Electronics Engineers) 802.3
 
-### Tectronick1
-## Estándar IEEE 802.4 (Token Bus)
-## Estándar IEEE 802.5 (Token Ring)
-## Estándar FDDI
+### Oscar
+## Estándar ANSI/BICSI 002-2014
+## ANSI/TIA 942-A 2014
+## ## El Uptime Institute y su estándar Tier
 
 
 #### Referencias

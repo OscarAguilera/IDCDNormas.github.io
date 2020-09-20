@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>DoU Presentations</title>
+
+		<link rel="stylesheet" href="../../css/reveal.css">
+		<link rel="stylesheet" href="../../css/theme/league.css">
+		<link rel="stylesheet" href="../../css/theme/dou.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="cover"
+					data-markdown="cover.md"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15">
+				</section>
+				<section>
+					<section>
+						<h2><p class="fragment fade-in">Oscar Aguilera Huerta</p></h2>
+						<p class="fragment fade-in"><img src="./img/logo_dou_large.png" height="55%" width="" alt="55%"></p>
+					</section>
+					<section>
+						<head>
+							<style>
+							* {
+								box-sizing: border-box;
+							}
+							.column {
+								float: left;
+								width: 33.33%;
+								padding: 5px;
+							}
+							.row::after{
+								content: "";
+								clear: both;
+								display:table;
+							}
+							</style>
+						</head>
+							<h4>About me</h4>
+							<ul>
+								<li><p class="fragment fade-in"> TSU (2002 - 2004 / Telematica</p></li>
+								<li><p class="fragment fade-in"> DevOps Engineer at DigitalOnUs</p></li>
+								<li><p class="fragment fade-in"> 14 years on IT </p></li>
+								<li><p class="fragment fade-in"> Video Gamer Passionate </p></li>
+							</ul>
+							<div class="row">
+									<div class="column">
+										<p class="fragment fade-in"><img src="./img/DevOps.png" alt="DevOps"width="100%"></p> 
+									</div>
+									<div class="column">
+									  <p class="fragment fade-in"><img src="./img/ServiceDesk.png" alt="ServiceDesk" style="width:100%"></p> 
+									</div>
+									<div class="column">
+									  <p class="fragment fade-in"><img src="./img/MCP.JPG" alt="MCP" style="width:100%"></p>
+									</div>
+								  </div>
+					</section>
+					<section>
+						<h2><p class="fragment fade-in">DOU</p></h2>
+						<h3><p class="fragment fade-in"> DigitalOnUs is one of the faster-growing startups of silicon valley</p></h3>
+						<ul>
+							<li><p class="fragment fade-in"> +200 Employees in 3 years</p></li>
+							<li><p class="fragment fade-in"> Our plan it is double the operations</p></li>
+						</ul>
+					</section>
+					<section>
+						<head>
+							<style>
+							* {
+								box-sizing: border-box;
+							}
+							.column1 {
+								float:inline-end;
+								width: 50%;
+								padding: 5px
+							}
+							.row1::after{
+								content: "";
+								clear: both;
+								display:table;
+							}
+							</style>
+						</head>
+						<h4><p class="fragment fade-in" align="left">LOCATIONS</p></h4>
+						<h6><p class="fragment fade-in" align="left">America</p></h6>
+						<p class="fragment fade-in" align="left">Monterrey</p>
+						<p class="fragment fade-in" align="left">Saltillo</p>
+						<p class="fragment fade-in" align="left">Gudalajara</p>
+
+						<!--<ul>
+							<li><p class="fragment fade-in"><small> America</small></p></li>
+							<ul>
+								<li><p class="fragment fade-in"> <small>Monterrey</small></p></li>
+								<li><p class="fragment fade-in"> <small>Saltillo</small></p> </li>
+								<li><p class="fragment fade-in"> <small>Gudalajara</small></p></li>
+							</ul> -->
+						</ul>
+						<div class="row1">
+							<div class="column1">
+								<p class="fragment fade-in"><img src="./img/America.jpg" alt="America" style="width:100%"></p>
+							</div>
+						</div>
+						
+					</section>
+				</section>
+				<section id="about-me"
+					data-markdown="../../common/about-me.md"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15">
+				</section>
+				<section id="intro"
+					data-markdown="intro.md"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15">
+				</section>
+				<section id="end"
+					data-markdown="end.md"
+					data-separator="^\n\n\n"
+					data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:"
+					data-charset="iso-8859-15">
+				</section>
+
+			</div>
+		</div>
+
+		<script src="../../lib/js/head.min.js"></script>
+		<script src="../../js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: '../../plugin/markdown/marked.js' },
+					{ src: '../../plugin/markdown/markdown.js' },
+					{ src: '../../plugin/notes/notes.js', async: true },
+					{ src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
