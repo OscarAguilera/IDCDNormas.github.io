@@ -25,7 +25,7 @@
 
 
 #### Referencias
-<!-- 
+
 http://www.gzingenieria.com/pdf/ConfCarlosZuluagaMar8.pdf
 https://www.mtnet.com.mx/blog/estandares-y-mejores-practicas-para-el-diseno-de-data-centers/
 https://www.mtnet.com.mx/blog/estandares-internacionales-para-el-diseno-de-centros-de-datos/
@@ -34,7 +34,7 @@ https://evaluandocloud.com/data-center/
 https://thales.cica.es/rd/Recursos/rd99/ed99-0432-01/seccion/ieee.html
 https://www.c3comunicaciones.es/data-center-el-estandar-tia-942/
 https://teksar.mx/clasificaciones-tier-data-center-uptime-institute/ 
--->
+
 
 
 
